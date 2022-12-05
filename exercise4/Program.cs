@@ -97,7 +97,9 @@ namespace exercise4
                         break;
                     case '4':
                         return;
-
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
                 }
             }
         }
