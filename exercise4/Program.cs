@@ -9,10 +9,10 @@ namespace exercise4
     class node
     {
         public int info;
-        public node next;
-        public node(int i, node n)
+        public  node next;
+        public node(int ricco, node n)
         {
-            info = i;
+            info = ricco;
             next = n;
         }
     }
