@@ -16,4 +16,14 @@ namespace exercise4
             next = n;
         }
     }
+
+    class stack
+    {
+        node top;
+        public stack()
+        {
+            top = null;
+        }
+
+    }
 }
