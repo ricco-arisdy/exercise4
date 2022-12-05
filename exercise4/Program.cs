@@ -42,5 +42,10 @@ namespace exercise4
 
         }
 
+        public void pop()
+        {
+            Console.WriteLine("\n The poped element is: " + top.info);
+            top = top.next;
+        }
     }
 }
